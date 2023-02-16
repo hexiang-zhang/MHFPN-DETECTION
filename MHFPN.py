@@ -10,7 +10,7 @@ from .fpn import FPN
 
 
 @NECKS.register_module()
-class PAHRFPN(FPN):
+class MHFPN(FPN):
     def __init__(self,
                  in_channels,
                  out_channels,
